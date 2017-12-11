@@ -2,7 +2,7 @@
 
 namespace Tests\Responses;
 
-use Nikapps\OrtcPhp\Models\Responses\AuthResponse;
+use Blenderdeluxe\OrtcPhp\Models\Responses\AuthResponse;
 use Tests\TestCase;
 
 class AuthResponseTest extends TestCase
