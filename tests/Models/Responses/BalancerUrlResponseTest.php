@@ -2,7 +2,7 @@
 
 namespace Tests\Responses;
 
-use Nikapps\OrtcPhp\Models\Responses\BalancerUrlResponse;
+use Blenderdeluxe\OrtcPhp\Models\Responses\BalancerUrlResponse;
 use Tests\TestCase;
 
 class BalancerUrlResponseTest extends TestCase
