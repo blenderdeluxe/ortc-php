@@ -2,8 +2,8 @@
 
 namespace Tests\Models\Requests;
 
-use Nikapps\OrtcPhp\Configs\OrtcConfig;
-use Nikapps\OrtcPhp\Models\Requests\BalancerUrlRequest;
+use Blenderdeluxe\OrtcPhp\Configs\OrtcConfig;
+use Blenderdeluxe\OrtcPhp\Models\Requests\BalancerUrlRequest;
 use Tests\TestCase;
 
 class BalancerUrlRequestTest extends TestCase
