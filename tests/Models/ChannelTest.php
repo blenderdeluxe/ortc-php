@@ -2,7 +2,7 @@
 
 namespace Tests\Models;
 
-use Nikapps\OrtcPhp\Models\Channel;
+use Blenderdeluxe\OrtcPhp\Models\Channel;
 use Tests\TestCase;
 
 class ChannelTest extends TestCase
