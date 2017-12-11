@@ -1,11 +1,11 @@
 <?php
 
-namespace Nikapps\OrtcPhp;
+namespace Blenderdeluxe\OrtcPhp;
 
-use Nikapps\OrtcPhp\Configs\OrtcConfig;
-use Nikapps\OrtcPhp\Models\Requests\AuthRequest;
-use Nikapps\OrtcPhp\Models\Requests\BalancerUrlRequest;
-use Nikapps\OrtcPhp\Models\Requests\SendMessageRequest;
+use Blenderdeluxe\OrtcPhp\Configs\OrtcConfig;
+use Blenderdeluxe\OrtcPhp\Models\Requests\AuthRequest;
+use Blenderdeluxe\OrtcPhp\Models\Requests\BalancerUrlRequest;
+use Blenderdeluxe\OrtcPhp\Models\Requests\SendMessageRequest;
 
 class Ortc
 {
