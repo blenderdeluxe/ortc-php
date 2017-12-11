@@ -3,8 +3,8 @@
 namespace Tests\Models\Requests;
 
 use Mockery as m;
-use Nikapps\OrtcPhp\Configs\OrtcConfig;
-use Nikapps\OrtcPhp\Models\Requests\SendMessageRequest;
+use Blenderdeluxe\OrtcPhp\Configs\OrtcConfig;
+use Blenderdeluxe\OrtcPhp\Models\Requests\SendMessageRequest;
 use Tests\TestCase;
 
 class SendMessageRequestTest extends TestCase
@@ -17,11 +17,11 @@ class SendMessageRequestTest extends TestCase
         $request = new SendMessageRequest();
         $request->setOrtcConfig($ortcConfig);
 
-        $this->assertInstanceOf('Nikapps\OrtcPhp\Models\Requests\OrtcRequest', $request);
+        $this->assertInstanceOf('Blenderdeluxe\OrtcPhp\Models\Requests\OrtcRequest', $request);
         $this->assertEquals('/send', $request->getUrlPath());
         $this->assertTrue($request->isPost());
         $this->assertFalse($request->isUrlAbsolute());
-        $this->assertInstanceOf('Nikapps\OrtcPhp\Handlers\SendMessageResponseHandler', $request->getResponseHandler());
+        $this->assertInstanceOf('Blenderdeluxe\OrtcPhp\Handlers\SendMessageResponseHandler', $request->getResponseHandler());
     }
 
     /**
