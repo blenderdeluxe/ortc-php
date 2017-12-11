@@ -1,5 +1,5 @@
 {
-    "name": "nikapps/ortc-php",
+    "name": "blenderdeluxe/ortc-php",
     "description": "A PHP API wrapper for ORTC (Realtime pub/sub framework from RealTime.co)",
     "keywords": [
         "RealTime",
