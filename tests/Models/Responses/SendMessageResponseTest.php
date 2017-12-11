@@ -2,7 +2,7 @@
 
 namespace Tests\Responses;
 
-use Nikapps\OrtcPhp\Models\Responses\SendMessageResponse;
+use Blenderdeluxe\OrtcPhp\Models\Responses\SendMessageResponse;
 use Tests\TestCase;
 
 class SendMessageResponseTest extends TestCase
