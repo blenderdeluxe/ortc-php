@@ -1,0 +1,50 @@
+{
+    "name": "nikapps/ortc-php",
+    "description": "A PHP API wrapper for ORTC (Realtime pub/sub framework from RealTime.co)",
+    "keywords": [
+        "RealTime",
+        "realtime.co",
+        "ORTC",
+        "API",
+        "Wrapper",
+        "XRTML",
+        "pub-sub",
+        "push",
+        "publish",
+        "real-time"
+    ],
+
+    "license": "MIT",
+    "type": "project",
+
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "~5.2",
+        "ramsey/uuid": "^3.4"
+    },
+    "require-dev": {
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "~4.0"
+    },
+    "authors": [
+        {
+            "name": "Ali Borhani",
+            "email": "aliborhani1@gmail.com"
+        },
+	{
+            "name": "Hossein Moradgholi",
+            "email": "h.moradgholi@icloud.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Nikapps\\OrtcPhp\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable"
+}
