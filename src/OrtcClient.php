@@ -1,15 +1,15 @@
 <?php
 
-namespace Nikapps\OrtcPhp;
+namespace Blenderdeluxe\OrtcPhp;
 
 use GuzzleHttp\Exception\ClientException;
 use GuzzleHttp\Message\FutureResponse;
 use GuzzleHttp\Pool;
-use Nikapps\OrtcPhp\Exceptions\BatchRequestException;
-use Nikapps\OrtcPhp\Exceptions\InvalidBalancerUrlException;
-use Nikapps\OrtcPhp\Exceptions\NetworkErrorException;
-use Nikapps\OrtcPhp\Exceptions\UnauthorizedException;
-use Nikapps\OrtcPhp\Models\Requests\OrtcRequest;
+use Blenderdeluxe\OrtcPhp\Exceptions\BatchRequestException;
+use Blenderdeluxe\OrtcPhp\Exceptions\InvalidBalancerUrlException;
+use Blenderdeluxe\OrtcPhp\Exceptions\NetworkErrorException;
+use Blenderdeluxe\OrtcPhp\Exceptions\UnauthorizedException;
+use Blenderdeluxe\OrtcPhp\Models\Requests\OrtcRequest;
 
 class OrtcClient
 {
