@@ -2,7 +2,7 @@
 
 namespace Tests\Exceptions;
 
-use Nikapps\OrtcPhp\Exceptions\UnauthorizedException;
+use Blenderdeluxe\OrtcPhp\Exceptions\UnauthorizedException;
 use Tests\TestCase;
 
 class UnauthorizedExceptionTest extends TestCase

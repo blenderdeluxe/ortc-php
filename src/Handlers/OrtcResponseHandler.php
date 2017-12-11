@@ -1,10 +1,10 @@
 <?php
 
-namespace Nikapps\OrtcPhp\Handlers;
+namespace Blenderdeluxe\OrtcPhp\Handlers;
 
 use GuzzleHttp\BatchResults;
 use GuzzleHttp\Message\FutureResponse;
-use Nikapps\OrtcPhp\Models\Responses\OrtcResponse;
+use Blenderdeluxe\OrtcPhp\Models\Responses\OrtcResponse;
 
 abstract class OrtcResponseHandler
 {

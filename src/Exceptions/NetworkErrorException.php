@@ -1,6 +1,6 @@
 <?php
 
-namespace Nikapps\OrtcPhp\Exceptions;
+namespace Blenderdeluxe\OrtcPhp\Exceptions;
 
 use GuzzleHttp\Exception\ClientException;
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace Nikapps\OrtcPhp\Handlers;
+namespace Blenderdeluxe\OrtcPhp\Handlers;
 
 use GuzzleHttp\Message\FutureResponse;
-use Nikapps\OrtcPhp\Exceptions\InvalidBalancerUrlException;
-use Nikapps\OrtcPhp\Models\Responses\BalancerUrlResponse;
+use Blenderdeluxe\OrtcPhp\Exceptions\InvalidBalancerUrlException;
+use Blenderdeluxe\OrtcPhp\Models\Responses\BalancerUrlResponse;
 
 class BalancerUrlResponseHandler extends OrtcResponseHandler
 {

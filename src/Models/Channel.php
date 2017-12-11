@@ -1,6 +1,6 @@
 <?php
 
-namespace Nikapps\OrtcPhp\Models;
+namespace Blenderdeluxe\OrtcPhp\Models;
 
 class Channel
 {

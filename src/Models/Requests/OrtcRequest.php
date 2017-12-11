@@ -1,9 +1,9 @@
 <?php
 
-namespace Nikapps\OrtcPhp\Models\Requests;
+namespace Blenderdeluxe\OrtcPhp\Models\Requests;
 
-use Nikapps\OrtcPhp\Configs\OrtcConfig;
-use Nikapps\OrtcPhp\Handlers\OrtcResponseHandler;
+use Blenderdeluxe\OrtcPhp\Configs\OrtcConfig;
+use Blenderdeluxe\OrtcPhp\Handlers\OrtcResponseHandler;
 
 abstract class OrtcRequest
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Nikapps\OrtcPhp\Handlers;
+namespace Blenderdeluxe\OrtcPhp\Handlers;
 
 use GuzzleHttp\Message\FutureResponse;
-use Nikapps\OrtcPhp\Models\Responses\AuthResponse;
+use Blenderdeluxe\OrtcPhp\Models\Responses\AuthResponse;
 
 class AuthResponseHandler extends OrtcResponseHandler
 {

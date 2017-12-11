@@ -1,6 +1,6 @@
 <?php
 
-namespace Nikapps\OrtcPhp\Configs;
+namespace Blenderdeluxe\OrtcPhp\Configs;
 
 class OrtcConfig
 {

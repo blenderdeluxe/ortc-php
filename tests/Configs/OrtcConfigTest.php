@@ -2,7 +2,7 @@
 
 namespace Tests\Configs;
 
-use Nikapps\OrtcPhp\Configs\OrtcConfig;
+use Blenderdeluxe\OrtcPhp\Configs\OrtcConfig;
 use Tests\TestCase;
 
 class OrtcConfigTest extends TestCase

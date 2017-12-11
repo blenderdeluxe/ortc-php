@@ -1,6 +1,6 @@
 <?php
 
-namespace Nikapps\OrtcPhp\Exceptions;
+namespace Blenderdeluxe\OrtcPhp\Exceptions;
 
 class OrtcException extends \Exception
 {

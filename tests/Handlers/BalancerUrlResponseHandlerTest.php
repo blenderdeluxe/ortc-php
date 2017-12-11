@@ -2,7 +2,7 @@
 
 namespace Tests\Handlers;
 
-use Nikapps\OrtcPhp\Handlers\BalancerUrlResponseHandler;
+use Blenderdeluxe\OrtcPhp\Handlers\BalancerUrlResponseHandler;
 use Tests\TestCase;
 
 class BalancerUrlResponseHandlerTest extends TestCase
@@ -10,11 +10,11 @@ class BalancerUrlResponseHandlerTest extends TestCase
     public function testImplementsAndHandle()
     {
         $handler = new BalancerUrlResponseHandler();
-        $this->assertInstanceOf('Nikapps\OrtcPhp\Handlers\OrtcResponseHandler', $handler);
+        $this->assertInstanceOf('Blenderdeluxe\OrtcPhp\Handlers\OrtcResponseHandler', $handler);
 
         $url = 'var SOCKET_SERVER = "https://ortc-server.realtime.co ";';
         $response = $handler->handle($url);
-        $this->assertInstanceOf('Nikapps\OrtcPhp\Models\Responses\BalancerUrlResponse', $response);
+        $this->assertInstanceOf('Blenderdeluxe\OrtcPhp\Models\Responses\BalancerUrlResponse', $response);
         $this->assertEquals('https://ortc-server.realtime.co', $response->getUrl());
     }
 
@@ -23,7 +23,7 @@ class BalancerUrlResponseHandlerTest extends TestCase
      */
     public function testHandleThrowInvalidBalancerUrlException($url)
     {
-        $this->setExpectedException('Nikapps\OrtcPhp\Exceptions\InvalidBalancerUrlException');
+        $this->setExpectedException('Blenderdeluxe\OrtcPhp\Exceptions\InvalidBalancerUrlException');
         $handler = new BalancerUrlResponseHandler();
 
         $response = $handler->handle($url);

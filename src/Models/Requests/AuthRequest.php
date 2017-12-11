@@ -1,10 +1,10 @@
 <?php
 
-namespace Nikapps\OrtcPhp\Models\Requests;
+namespace Blenderdeluxe\OrtcPhp\Models\Requests;
 
-use Nikapps\OrtcPhp\Handlers\AuthResponseHandler;
-use Nikapps\OrtcPhp\Handlers\OrtcResponseHandler;
-use Nikapps\OrtcPhp\Models\Channel;
+use Blenderdeluxe\OrtcPhp\Handlers\AuthResponseHandler;
+use Blenderdeluxe\OrtcPhp\Handlers\OrtcResponseHandler;
+use Blenderdeluxe\OrtcPhp\Models\Channel;
 
 class AuthRequest extends OrtcRequest
 {

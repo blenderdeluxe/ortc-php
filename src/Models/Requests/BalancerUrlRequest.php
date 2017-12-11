@@ -1,9 +1,9 @@
 <?php
 
-namespace Nikapps\OrtcPhp\Models\Requests;
+namespace Blenderdeluxe\OrtcPhp\Models\Requests;
 
-use Nikapps\OrtcPhp\Handlers\BalancerUrlResponseHandler;
-use Nikapps\OrtcPhp\Handlers\OrtcResponseHandler;
+use Blenderdeluxe\OrtcPhp\Handlers\BalancerUrlResponseHandler;
+use Blenderdeluxe\OrtcPhp\Handlers\OrtcResponseHandler;
 
 class BalancerUrlRequest extends OrtcRequest
 {

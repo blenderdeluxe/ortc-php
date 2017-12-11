@@ -1,6 +1,6 @@
 <?php
 
-namespace Nikapps\OrtcPhp\Models\Responses;
+namespace Blenderdeluxe\OrtcPhp\Models\Responses;
 
 class BalancerUrlResponse extends OrtcResponse
 {

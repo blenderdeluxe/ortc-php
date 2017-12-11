@@ -2,7 +2,7 @@
 
 namespace Tests\Exceptions;
 
-use Nikapps\OrtcPhp\Exceptions\InvalidBalancerUrlException;
+use Blenderdeluxe\OrtcPhp\Exceptions\InvalidBalancerUrlException;
 use Tests\TestCase;
 
 class InvalidBalancerUrlExceptionTest extends TestCase

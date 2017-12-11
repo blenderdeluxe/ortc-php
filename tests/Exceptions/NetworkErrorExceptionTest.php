@@ -3,7 +3,7 @@
 namespace Tests\Exceptions;
 
 use Mockery as m;
-use Nikapps\OrtcPhp\Exceptions\NetworkErrorException;
+use Blenderdeluxe\OrtcPhp\Exceptions\NetworkErrorException;
 use Tests\TestCase;
 
 class NetworkErrorExceptionTest extends TestCase

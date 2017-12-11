@@ -1,9 +1,9 @@
 <?php
 
-namespace Nikapps\OrtcPhp\Handlers;
+namespace Blenderdeluxe\OrtcPhp\Handlers;
 
 use GuzzleHttp\BatchResults;
-use Nikapps\OrtcPhp\Models\Responses\SendMessageResponse;
+use Blenderdeluxe\OrtcPhp\Models\Responses\SendMessageResponse;
 
 class SendMessageResponseHandler extends OrtcResponseHandler
 {

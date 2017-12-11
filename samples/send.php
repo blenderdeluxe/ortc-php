@@ -1,10 +1,10 @@
 <?php
 
-use Nikapps\OrtcPhp\Configs\OrtcConfig;
-use Nikapps\OrtcPhp\Models\Channel;
-use Nikapps\OrtcPhp\Models\Requests\AuthRequest;
-use Nikapps\OrtcPhp\Models\Requests\SendMessageRequest;
-use Nikapps\OrtcPhp\Ortc;
+use Blenderdeluxe\OrtcPhp\Configs\OrtcConfig;
+use Blenderdeluxe\OrtcPhp\Models\Channel;
+use Blenderdeluxe\OrtcPhp\Models\Requests\AuthRequest;
+use Blenderdeluxe\OrtcPhp\Models\Requests\SendMessageRequest;
+use Blenderdeluxe\OrtcPhp\Ortc;
 
 require_once '../vendor/autoload.php';
 

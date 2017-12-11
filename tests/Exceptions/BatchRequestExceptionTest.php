@@ -2,7 +2,7 @@
 
 namespace Tests\Exceptions;
 
-use Nikapps\OrtcPhp\Exceptions\BatchRequestException;
+use Blenderdeluxe\OrtcPhp\Exceptions\BatchRequestException;
 use Tests\TestCase;
 
 class BatchRequestExceptionTest extends TestCase
