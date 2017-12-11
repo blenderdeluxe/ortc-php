@@ -2,9 +2,9 @@
 
 namespace Tests\Models\Requests;
 
-use Nikapps\OrtcPhp\Configs\OrtcConfig;
-use Nikapps\OrtcPhp\Models\Channel;
-use Nikapps\OrtcPhp\Models\Requests\AuthRequest;
+use Blenderdeluxe\OrtcPhp\Configs\OrtcConfig;
+use Blenderdeluxe\OrtcPhp\Models\Channel;
+use Blenderdeluxe\OrtcPhp\Models\Requests\AuthRequest;
 use Tests\TestCase;
 
 class AuthRequestTest extends TestCase
