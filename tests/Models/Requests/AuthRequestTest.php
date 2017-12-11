@@ -16,7 +16,7 @@ class AuthRequestTest extends TestCase
         $request = new AuthRequest();
         $request->setOrtcConfig($ortcConfig);
 
-        $this->assertInstanceOf('Nikapps\OrtcPhp\Models\Requests\OrtcRequest', $request);
+        $this->assertInstanceOf('Blenderdeluxe\OrtcPhp\Models\Requests\OrtcRequest', $request);
         $this->assertEquals('/authenticate', $request->getUrlPath());
         $this->assertFalse($request->isUrlAbsolute());
         $this->assertTrue($request->isPost());
